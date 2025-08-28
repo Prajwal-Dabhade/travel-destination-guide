@@ -28,8 +28,8 @@ booking.php → Handles bookings & stores user data<br>
 contact.php → Contact form for queries<br>
 destination.js → Dynamic destination search & features<br><br>
 🌟💻** How to Run ***💻🌟<br>
-Clone the repo:<br>
-git clone : <br>
+Clone the repo:https://github.com/Prajwal-Dabhade/travel-destination-guide.git<br>
+git clone : https://github.com/Prajwal-Dabhade/travel-destination-guide.git<br>
 Open index.html in your browser.<br>
 Explore the code & customize as needed.<br>
 🌟📸** Screenshots **📸🌟<br>
