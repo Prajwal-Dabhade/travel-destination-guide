@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete responsive tour and travel website </title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" href="./images/travel icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span></span>Travel</a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <!-- <a href="#book">Book</a> -->
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="#comparison">Comparison Table</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+<!-- home section start -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Travel is an investment in yourself</h3>
+        <p>Travel is the only thing you can buy that makes you richer.</p>
+        <a href="https://en.wikipedia.org/wiki/Tourism" class="btn" target="_blank">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="./images/flower.mp4"></span>
+        <span class="vid-btn" data-src="./images/Leaf.mp4"></span>
+        <span class="vid-btn" data-src="images/ice.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="./images/rose.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/flower.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+<!-- home section ends -->
+
+<!-- book section start -->
+<!-- <section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+    
+    <div class="row">
+
+        <div class="image">
+            <img src="images/cartoon.avif" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section> -->
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/p-1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>Visit the vibrant heart of Maharashtra.
+                    See the iconic Gateway of India & explore bustling city life.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">₹5000 <span>₹7000</span> </div>
+                <a href="./form.html" class="btn" target="_blank">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/goa.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> GOA </h3>
+                <p>Sun, sand, and parties await you.
+                    Perfect for water sports and serene beach vibes. Best place.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹5000 <span>₹7000</span> </div>
+                <a href="./form.html" class="btn" target="_blank">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/Delhi2.webp" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> DELHI </h3>
+                <p>Discover the capital's rich history and vibrant culture.Home to India Gate and incredible street food.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹6780.00 <span>₹8700.00</span> </div>
+                <a href="./form.html" class="btn" target="_blank">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/kashmir2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> KASHMIR </h3>
+                <p>Experience paradise on Earth.
+                    Enjoy scenic valleys, shikara rides & snowy peaks.
+                    beauty and houseboats.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹6660.00 <span>₹8880.00</span> </div>
+                <a href="form.html" class="btn" target="_blank">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Taj mahal.webp" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> TAJ MAHAL </h3>
+                <p>Witness the eternal symbol of love.
+                    Marvel at Mughal architecture in Agra’s crown jewel.A timeless monument of love.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹6500.00 <span>₹8000.00</span> </div>
+                <a href="./form.html" class="btn" target="_blank">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Varanasi.png" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> VARANASI </h3>
+                <p>Explore India’s spiritual capital on the banks of the Ganges.
+                    Experience sacred rituals, vibrant ghats, and timeless traditions.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹6000.00 <span>₹9000.00</span> </div>
+                <a href="./form.html" class="btn" target="_blank">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Affordable hotels are ideal for budget-conscious travelers who want comfort without high costs. These hotels offer clean rooms, essential amenities, and easy access to transport or tourist areas.  </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Affordable hotels often provide fresh, home-style meals that are both tasty and budget-friendly. Guests can enjoy complimentary breakfasts with items like toast, eggs, tea, and local dishes such as poha or idli.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>Your safety is a top priority while traveling. Always ensure hotel doors and windows are securely locked. Use additional safety tools like portable door locks or chains if available.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>Traveling internationally can be smooth and secure with the right planning. Use trusted platforms like Booking.com, Agoda, or Airbnb to find accommodations with real reviews and verified listings.  </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Modern air travel allows us to reach destinations across the globe in record time. High-speed commercial jets like the Boeing 787 and Airbus A350 cruise at nearly 900 km/h, connecting continents in just hours. Upcoming innovations in supersonic travel may soon reduce long-haul flights to half the time.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Adventure travel is all about thrilling experiences and unforgettable moments. From mountain trekking and river rafting to skydiving and desert safaris, there's an adventure waiting in every corner of the world.</p>
+        </div>
+
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/delhi.png" alt="">
+            <div class="content">
+                <h3>Fatehpur Sikri</h3>
+                <p>An architzectural marvel built by Emperor Akbar in the 16th century.
+                    Known for its stunning red sandstone buildings and grand courtyards.
+                   </p>
+                <a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri" class="btn" target="_blank">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/taj.jpg" alt="">
+            <div class="content">
+                <h3>Taj Mahal, Agra</h3>
+                <p>One of the Seven Wonders of the World and a symbol of eternal love.
+                    Built by Shah Jahan in memory of his wife Mumtaz Mahal.
+                    Famous for its white marble.</p>
+                <a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="btn" target="_blank">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/haridwar rishikesh.jpg" alt="">
+            <div class="content">
+                <h3>Devprayag</h3>
+                <p>The sacred confluence of the Alaknanda and Bhagirathi rivers.
+                    Forms the starting point of the Ganga River.
+                    A serene spiritual destination amidst the Himalayas.
+                    
+                    </p>
+                <a href="https://en.wikipedia.org/wiki/Devprayag" class="btn" target="_blank">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/jaipur.jpg" alt="">
+            <div class="content">
+                <h3>Hawa Mahal, Jaipur</h3>
+                <p>Also known as the Palace of Winds with 953 small windows.
+                    Built in 1799 by Maharaja Sawai Pratap Singh.
+                    Designed for royal ladies to observe street festivals.</p>
+                <a href="https://en.wikipedia.org/wiki/Hawa_Mahal" class="btn" target="_blank">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/marine drive.webp" alt="">
+            <div class="content">
+                <h3>Marine Drive</h3>
+                <p>A 3.6 km long boulevard along the South Mumbai coast.
+                    Popularly known as the "Queen's Necklace" when lit at night.
+                    A perfect place for evening strolls.</p>
+                <a href="https://en.wikipedia.org/wiki/Marine_Drive,_Mumbai" class="btn" target="_blank">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/royal jaipur.webp" alt="">
+            <div class="content">
+                <h3>City Palace</h3>
+                <p>A blend of Rajput, Mughal, and European architectural styles.
+                    Home to Jaipur’s royal family and a part museum.
+                    Features courtyards, gardens, and historic.</p>
+                <a href="https://en.wikipedia.org/wiki/City_Palace,_Jaipur" class="btn" target="_blank">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/kedarnath.jpeg" alt="">
+            <div class="content">
+                <h3>Kedarnath Temple</h3>
+                <p>A sacred Hindu temple dedicated to Lord Shiva.
+                    Located in the Garhwal Himalayas at 3,583 meters.
+                    Accessible only by a challenging trek, open seasonally.</p>
+                <a href="https://en.wikipedia.org/wiki/Kedarnath_Temple" class="btn" target="_blank">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/manali.jpg" alt="">
+            <div class="content">
+                <h3>Himachal Pradesh</h3>
+                <p>A famous hill station in the Himalayas.
+                    Surrounded by pine forests and snow-capped peaks.
+                    Ideal for trekking, paragliding, and river rafting.</p>
+                <a href="https://en.wikipedia.org/wiki/Himachal_Pradesh" class="btn" target="_blank">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/badrinath.avif" alt="">
+            <div class="content">
+                <h3>Badrinath Temple, Uttarakhand</h3>
+                <p>A revered temple dedicated to Lord Vishnu.
+                    Part of the Char Dham pilgrimage circuit.
+                    Set amidst the Nar and Narayan mountain ranges.</p>
+                <a href="https://en.wikipedia.org/wiki/Badrinath_Temple" class="btn" target="_blank">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic3.png" alt="">
+                    <h3>Aarav Sharma</h3>
+                    <p>“Absolutely amazing experience!”
+                        I booked a trip to Manali through this site and everything was seamless—from transport to hotel. The photos matched the real locations and the customer support was quick and helpful. Will definitely use again!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.jpg" alt="">
+                    <h3>Sneha Sharma</h3>
+                    <p>“Great selection of destinations”
+                        Loved how many Indian tourist spots were listed with beautiful pictures. I went to Varanasi, and it was a soul-touching journey. A little delay in confirmation email, but overall great.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic3.png" alt="">
+                    <h3>Priya Nair</h3>
+                    <p>“Great service, slight room for improvement”
+                        Loved how easy it was to compare destinations and prices. Booked a Jaipur tour and the itinerary was perfect. Just wish the app loaded a bit faster. Otherwise, a fantastic platform.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3>Karan Mehta</h3>
+                    <p>“Highly recommended for hassle-free travel”
+                        As someone who travels a lot for leisure, this is now my go-to site. The user interface is clean, and I especially liked the "Gallery" section for choosing places visually. 10/10!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic2.webp" alt="">
+                    <h3>Sneha Patel</h3>
+                    <p>“Okay experience but needs better filtering options”
+                        The website is decent but could really use better filters for budget travelers. Booked Varanasi and it went fine, but finding the right stay took longer than expected.
+                        
+                        </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.avif" alt="">
+                    <h3>Ravi Deshmukh</h3>
+                    <p>“Perfect for planning family vacations”
+                        We used the site to plan a trip to Agra and everything was just spot-on. Good recommendations, reasonable pricing, and smooth booking. Even my parents were impressed!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="message.php" method="post">
+
+                <input type="text" placeholder="Name" name="FirstName" class="n" style="width: 45%;" required>
+                <input type="email" placeholder="Email" name="Email" class="n" style="width: 45%;" required> <br>
+                <input type="tel" placeholder="Mobile Number" name="Number" class="n" style="width: 45%;" required>
+                <input type="text" placeholder="Subject" name="Subject" class="n" style="width: 45%;" required> <br>
+                <textarea placeholder="Message" cols="30" rows="10" name="Message" required></textarea>
+
+            <input type="submit" class="btn" value="send message" style="width: 30%;">
+
+            <!-- <div class="inputBox">
+                <input type="text" placeholder="Name" name="FirstName">
+                <input type="email" placeholder="Email" name="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Number" name="Number">
+                <input type="text" placeholder="Subject" name="Subject">
+            </div>
+            <textarea placeholder="Message" cols="30" rows="10" name="Message"></textarea> -->
+            <!-- <input type="submit" class="btn" value="send message"> -->
+        </form>
+
+    </div>
+    
+</section>
+
+<section class="contact" id="comparison">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>m</span>
+        <span>p</span>
+        <span>a</span>
+        <span>r</span>
+        <span>i</span>
+        <span>s</span>
+        <span>o</span>
+        <span>n</span>
+        <span class="space"></span>
+        <span>t</span>
+        <span>a</span>
+        <span>b</span>
+        <span>l</span>
+        <span>e</span>
+    </h1>
+
+    <table border="1" cellpadding="90" cellspacing="0" class="tab">
+          <tr>
+            <th>Place</th>
+            <th>Location</th>
+            <th>Type</th>
+            <th>Famous For</th>
+            <th>Best Time to Visit</th>
+            <th>Climate</th>
+            <th>Major Attractions</th>
+            <th>Popular Activities</th>
+            <th>Vibe</th>
+          </tr>
+        <tbody>
+          <tr>
+            <td>Badrinath Temple</td>
+            <td>Uttarakhand</td>
+            <td>Religious / Pilgrimage</td>
+            <td>One of Char Dham, Lord Vishnu Temple</td>
+            <td>May – Oct</td>
+            <td>Cold / Alpine</td>
+            <td>Neelkanth Peak, Tapt Kund</td>
+            <td>Pilgrimage, Trekking, Spiritual Visit</td>
+            <td>Sacred, serene, remote</td>
+          </tr>
+          <tr>
+            <td>Goa</td>
+            <td>West Coast (Konkan)</td>
+            <td>Beach / Party Destination</td>
+            <td>Beaches, Nightlife, Water Sports</td>
+            <td>Nov – Feb</td>
+            <td>Humid / Tropical</td>
+            <td>Baga, Anjuna, Fort Aguada</td>
+            <td>Water Sports, Parties, Sightseeing</td>
+            <td>Chill, vibrant, coastal</td>
+          </tr>
+          <tr>
+            <td>Hawa Mahal</td>
+            <td>Jaipur, Rajasthan</td>
+            <td>Monument / Palace</td>
+            <td>Palace of Winds, Rajput Architecture</td>
+            <td>Oct – Mar</td>
+            <td>Hot / Arid</td>
+            <td>City Palace, Jantar Mantar</td>
+            <td>Photography, Heritage Walks, Shopping</td>
+            <td>Regal, colorful, artistic</td>
+          </tr>
+          <tr>
+            <td>Kashmir</td>
+            <td>Jammu & Kashmir</td>
+            <td>Natural / Hill Destination</td>
+            <td>Lakes, Mountains, Snow, Tulip Gardens</td>
+            <td>Apr – Oct</td>
+            <td>Cold / Alpine</td>
+            <td>Dal Lake, Gulmarg, Sonmarg</td>
+            <td>Boating, Trekking, Skiing, Photography</td>
+            <td>Romantic, scenic, peaceful</td>
+          </tr>
+          <tr>
+            <td>Taj Mahal</td>
+            <td>Agra, Uttar Pradesh</td>
+            <td>Monument / Heritage Site</td>
+            <td>Symbol of Love, Mughal Masterpiece</td>
+            <td>Oct – Mar</td>
+            <td>Semi-arid</td>
+            <td>Agra Fort, Mehtab Bagh</td>
+            <td>Sightseeing, Photography, History Tours</td>
+            <td>Majestic, iconic, elegant</td>
+          </tr>
+          <tr>
+            <td>Varanasi</td>
+            <td>Uttar Pradesh</td>
+            <td>Spiritual / Cultural City</td>
+            <td>Ghats, Ganga Aarti, Ancient Temples</td>
+            <td>Oct – Mar</td>
+            <td>Subtropical</td>
+            <td>Kashi Vishwanath, Sarnath</td>
+            <td>Rituals, Boat Rides, Meditation</td>
+            <td>Sacred, intense, timeless</td>
+          </tr>
+          <tr>
+            <td>Kedarnath Temple</td>
+            <td>Uttarakhand</td>
+            <td>Religious / Pilgrimage</td>
+            <td>Shiva Temple, One of Char Dham</td>
+            <td>May – Oct</td>
+            <td>Cold / Alpine</td>
+            <td>Chorabari Lake, Snow Peaks</td>
+            <td>Pilgrimage, Trekking, Spiritual Reflection</td>
+            <td>Sacred, remote, powerful</td>
+          </tr>
+        </tbody>
+      </table>
+      
+</section>
+
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper" style="display: flex;">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>At WanderSphere, we believe that every journey tells a story. Our mission is to inspire and guide travelers by offering curated travel content, stunning visuals, and reliable recommendations.
+            From hidden gems to iconic landmarks, we help you travel smarter, better, and bolder.
+            Founded by passionate travelers, our mission is simple: to inspire, guide, and connect explorers from all walks of life. We provide carefully curated travel guides, insider tips, budget-friendly itineraries, and personalized recommendations so you can travel smarter and experience more.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>Regions</h3>
+            <a href="#">Goa</a>
+            <a href="#">Jammu and Kashmir</a>
+            <a href="#">Kerala</a>
+            <a href="#">Delhi</a>
+            <a href="#">Mumbai</a>
+            <a href="#">Agra</a>
+            <a href="#">Manali</a>
+        </div>
+        <div class="box">
+            <h3>Place to stay</h3>
+            <a href="#">Luxury Hotels</a>
+            <a href="#">Three-Star Hotels</a>
+            <a href="#">Homestays</a>
+            <a href="#">Five-Star Hotels</a>
+            <a href="#">Beach Hotels</a>
+            <a href="#">Family Hotels</a>
+            <a href="#">Cottage</a>
+        </div>
+
+        <div class="box1">
+            <h3>Follow Us</h3>
+          
+            <div class="icon1"><a href="#"><i class="fa-brands fa-instagram"  ></i></a></div>
+            <div class="icon1"><a href="#"><i class="fa-brands fa-facebook" ></i></a></div>
+            <div class="icon1"><a href="#"><i class="fa-brands fa-youtube" ></i></a></div>
+            <div class="icon1"><a href="#"><i class="fa-brands fa-linkedin" ></i></a></div>
+            <div class="icon1"><a href="#"><i class="fa-brands fa-twitter" ></i></a></div>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> mr. prajwal dabhade </span> </h1>
+
+</section>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="./script.jss"></script>
+
+</body>
+</html>

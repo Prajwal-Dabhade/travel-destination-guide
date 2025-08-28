@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+
+    <section class="main">
+      <form method="post" action="Data.php">
+
+        <h1>BOOKING FORM</h1>
+        <input type="text" id="first name" name="first_name" placeholder="FIRST NAME" required style="color: white;">
+        <input type="text" id="last name" name="last_name" placeholder="LAST NAME" required>
+        <input type="email" id="email" name="email" placeholder="EMAIL ID" required> 
+
+        <select id="inputState" class="form-select" name="state" required>
+            <option selected class="state">SELECT STATE</option>
+            <option>MAHARASHTRA</option>
+            <option>KARNATAKA</option>
+            <option>TAMIL NADU</option>
+            <option>UTTAR PRADESH</option>
+            <option>WEST BENGAL</option>
+        </select>
+
+        <input type="text" id="Address" name="Address" placeholder="ADDRESS" required>
+        <select id="inputState" class="form-select" name="city" required>
+            <option selected class="state">WHERE TO</option>
+            <option>MUMBAI</option>
+            <option>GOA</option>
+            <option>DELHI</option>
+            <option>KASHMIR</option>
+            <option>TAJ MAHAL</option>
+            <option>VARANASI</option>
+        </select>        
+       <div class="date">
+           <div>
+              <label for="date" class="date">Arrivals Date</label> 
+              <input type="date" id="date" name="StartDate" required style="color: white; font-weight: 700;"> <br>
+           </div>
+        
+           <div>
+              <label for="EndDate" id="date" class="date">Leaving Date</label>
+              <input type="date" name="EndDate" id="EndDate" required style="color: white; font-weight: 700;">
+           </div>
+       </div>
+
+       <input type="number" id="lname" name="member" placeholder="HOW MANY PEOPLE" class="people" required style="color: black; font-weight: 700;"> <br>
+
+       <!-- <div class="payment">
+          <h4 for="Payment">Payment Details : </h4><br> 
+
+          <input type="radio" placeholder="phonepe">
+          <img src="./images/phonepe.jpg" alt="" >
+          <label for="">PhonePe</label> <br>
+
+          <input type="radio" placeholder="phonepe">
+          <img src="./images/googlepay.webp" alt="">
+          <label for="">Google Pay</label> <br>
+
+          <input type="radio" placeholder="phonepe">
+          <img src="./images/paytm.png" alt="">
+          <label for="">Paytm</label>
+
+       </div> -->
+
+         <button class="btn1" href="">SUBMIT</button>
+         <button><a href="./index.html#packages" class="btn2">CANCEL</a></button>
+
+      </form>
+    </section>
+
+</body>
+</html>
