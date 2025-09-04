@@ -1,12 +1,11 @@
 body {
-    background-image: url(./images/formbackground.jpg);
+    background-image: url(./assets/images/formbackground.jpg);
     background-size: cover;
     height: 42rem;
     margin-top: 50px;
 }
 
 .main {
-    /* background-color: rgb(245, 242, 242); */
     background: alpha(opacity);
     margin: 40px;
     padding: 4%;
@@ -116,26 +115,3 @@ input:focus {
 button a:hover {
     color: black
 }
-
-/* .payment {
-    background-color: red;
-}
-
-.payment label {
-    color: white;
-    font-weight: 600;
-    margin-left: 10px;  
-}
-
-.payment img {
-    margin-left: -150px;
-    border-radius: 50%;
-    height: 30px;
-}
-
-
-.payment input[type="radio"] {
-  transform: scale(0.6);  
-   vertical-align: middle; 
-  cursor: pointer;
-}   */
